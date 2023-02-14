@@ -51,3 +51,5 @@ plot(1, xlim=c(0,100), ylim=c(0,1), type="n", axes=T, xlab="Sky Condition (% Clo
 lines(newsky$sky, pred.p$Predicted, col="black", lwd=2)
 lines(newsky$sky, pred.p$lower, lty=2, col="black")
 lines(newsky$sky, pred.p$upper, lty=2, col="black")
+
+print("practice")
